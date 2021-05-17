@@ -7,7 +7,7 @@ const port = 80;
 app.use("/static", express.static("static"));
 app.use(express.urlencoded());
 
-//PUG SPECIFIC STUFF
+//PUG SPECIFIC STUFF by raj
 app.set("view engine", "pug");
 app.set("views", path.join(__dirname, "views"));
 
